@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks
+END
+latency.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/latency.c
+END
+benchmarks.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/benchmarks.h
+END
+bench_scp.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/bench_scp.c
+END
+bench1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/bench1.sh
+END
+bench_raw.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/bench_raw.c
+END
+bench2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/bench2.sh
+END
+bench_sftp.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/bench_sftp.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/CMakeLists.txt
+END
+benchmarks.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/benchmarks/benchmarks.c
+END

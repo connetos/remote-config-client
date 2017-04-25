@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd
+END
+pkd_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_util.h
+END
+pkd_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_client.h
+END
+pkd_daemon.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_daemon.c
+END
+pkd_hello.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_hello.c
+END
+pkd_keyutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_keyutil.c
+END
+pkd_daemon.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_daemon.h
+END
+pkd_keyutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_keyutil.h
+END
+pkd_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/pkd_util.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/pkd/CMakeLists.txt
+END

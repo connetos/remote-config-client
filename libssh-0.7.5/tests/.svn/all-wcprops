@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests
+END
+connection.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/connection.c
+END
+generate.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/generate.py
+END
+ctest-default.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/ctest-default.cmake
+END
+torture.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/torture.c
+END
+test_tunnel.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/test_tunnel.c
+END
+tests.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/tests.h
+END
+torture.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/torture.h
+END
+cmdline.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/cmdline.c
+END
+valgrind.supp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/valgrind.supp
+END
+authentication.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/authentication.c
+END
+test_ssh_bind_accept_fd.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/test_ssh_bind_accept_fd.c
+END
+test_pcap.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/test_pcap.c
+END
+test_exec.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/test_exec.c
+END
+test_socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/test_socket.c
+END
+chmodtest.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/chmodtest.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/CMakeLists.txt
+END

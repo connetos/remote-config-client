@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules
+END
+MacroEnsureOutOfSourceBuild.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/MacroEnsureOutOfSourceBuild.cmake
+END
+DefineCompilerFlags.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/DefineCompilerFlags.cmake
+END
+AddCMockaTest.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/AddCMockaTest.cmake
+END
+FindGCrypt.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/FindGCrypt.cmake
+END
+DefineInstallationPaths.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/DefineInstallationPaths.cmake
+END
+FindNSIS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/FindNSIS.cmake
+END
+FindNaCl.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/FindNaCl.cmake
+END
+DefineCMakeDefaults.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/DefineCMakeDefaults.cmake
+END
+FindGSSAPI.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/FindGSSAPI.cmake
+END
+DefinePlatformDefaults.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/DefinePlatformDefaults.cmake
+END
+UseDoxygen.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/UseDoxygen.cmake
+END
+FindArgp.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/FindArgp.cmake
+END
+CheckCCompilerFlagSSP.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/CheckCCompilerFlagSSP.cmake
+END
+COPYING-CMAKE-SCRIPTS
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/COPYING-CMAKE-SCRIPTS
+END
+FindCMocka.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/cmake/Modules/FindCMocka.cmake
+END

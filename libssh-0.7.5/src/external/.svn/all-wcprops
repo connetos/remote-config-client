@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external
+END
+ed25519.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/ed25519.c
+END
+fe25519.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/fe25519.c
+END
+ge25519.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/ge25519.c
+END
+ge25519_base.data
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/ge25519_base.data
+END
+curve25519_ref.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/curve25519_ref.c
+END
+bcrypt_pbkdf.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/bcrypt_pbkdf.c
+END
+sc25519.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/sc25519.c
+END
+blowfish.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/src/external/blowfish.c
+END

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5
+END
+README.CodingStyle
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/README.CodingStyle
+END
+ConfigureChecks.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/ConfigureChecks.cmake
+END
+DefineOptions.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/DefineOptions.cmake
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/AUTHORS
+END
+CPackConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/CPackConfig.cmake
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/ChangeLog
+END
+CTestConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/CTestConfig.cmake
+END
+.clang_complete
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/.clang_complete
+END
+SubmittingPatches
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/SubmittingPatches
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/README
+END
+libssh-config-version.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/libssh-config-version.cmake.in
+END
+libssh-build-tree-settings.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/libssh-build-tree-settings.cmake.in
+END
+libssh.pc.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/libssh.pc.cmake
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/COPYING
+END
+BSD
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/BSD
+END
+config.h.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/config.h.cmake
+END
+libssh-config.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/libssh-config.cmake.in
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/CMakeLists.txt
+END
+libssh_threads.pc.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/libssh_threads.pc.cmake
+END

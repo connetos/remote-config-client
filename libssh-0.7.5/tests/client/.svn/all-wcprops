@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client
+END
+torture_sftp_dir.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_sftp_dir.c
+END
+torture_knownhosts.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_knownhosts.c
+END
+torture_proxycommand.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_proxycommand.c
+END
+torture_request_env.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_request_env.c
+END
+torture_auth.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_auth.c
+END
+torture_session.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_session.c
+END
+torture_sftp_static.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_sftp_static.c
+END
+torture_forward.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_forward.c
+END
+torture_sftp_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_sftp_read.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/CMakeLists.txt
+END
+torture_algorithms.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_algorithms.c
+END
+torture_connect.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/connetos/!svn/ver/2265/trunk/luban/tools/remote_config_client/libssh-0.7.5/tests/client/torture_connect.c
+END

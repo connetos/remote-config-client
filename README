@@ -1,0 +1,37 @@
+To build rcc, you just need to run ./build.sh.
+
+You may have to install some packages as depandences if having
+problems when building or running rcc. The list is given as following:
+1) librt
+2) libcrypto
+3) libcurl
+4) listdc++
+5) libm
+6) libgcc_s
+7) libc
+8) libpthread
+9) libz
+10) libgssapi_krb5
+11) libdl
+12) libidn
+13) libldap-2.4
+14) libkrb5
+15) libk5crypto
+16) libcom_err
+17) libssl3
+18) libsmime3
+19) libnss3
+20) libnssutil3
+21) libplds4
+22) libplc4
+23) libnspr4
+24) libssh2
+25) libkrb5support
+26) libkeyutils
+27) libresolv
+28) liblber-2.4
+29) libsasl2
+30) libssl
+31) libselinux
+32) libcrypt
+33) libfreebl3
