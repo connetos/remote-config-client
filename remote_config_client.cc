@@ -196,26 +196,63 @@ RemoteConfigClient::request_remote_config()
     return 0;
 }
 
+bool need_outputting(string command_name, bool is_command_success, int mode)
+{
+    if(!is_command_success)
+    {
+        return true;
+    }
+    else if(mode < 2
+            && command_name.substr(0, sizeof("configure") - 1) != "configure")
+    {
+        return true;
+    }
+    else if(command_name.substr(0, sizeof("configure") - 1) == "configure"
+            || command_name.substr(0, sizeof("edit") - 1) == "edit"
+            || command_name.substr(0, sizeof("up") - 1) == "up"
+            || command_name.substr(0, sizeof("top") - 1) == "top"
+            || command_name.substr(0, sizeof("set") - 1) == "set"
+            || command_name.substr(0, sizeof("delete") - 1) == "delete"
+            || command_name.substr(0, sizeof("exit") - 1) == "exit")
+    {
+        return false;
+    }
+    return true;
+}
+
+bool need_logging(string command_name, int mode)
+{
+    if(mode >= 2
+       &&
+       (command_name.substr(0, sizeof("set") - 1) == "set"
+        || command_name.substr(0, sizeof("delete") - 1) == "delete"
+        || command_name.substr(0, sizeof("commit") - 1) == "commit"))
+    {
+        return true;
+    }
+    return false;
+}
+
 int
 RemoteConfigClient::send_config_command(string& cmd)
 {
-    char buf[409600] = "";
+    char buf[4096] = "";
     size_t buf_size = sizeof(buf);
-    int cmd_len = cmd.size();
+    size_t cmd_len = cmd.size();
     if(cmd_len > buf_size)
     {
         fprintf(stderr, "Command is too long!\n");
         return -1;
     }
-    memset(buf, 0, sizeof(buf));
-    strncpy(buf, cmd.c_str(), cmd.size());
+    // send command to server end
+    memset(buf, 0, buf_size);
+    strncpy(buf, cmd.c_str(), cmd_len);
     if(ssh_channel_write(_channel, buf, cmd_len) == SSH_ERROR)
     {
         fprintf(stderr, "Send command to remote switch failed.\n");
         return -1;
     }
-    printf(">> %s", cmd.c_str());
-    string response_str;
+
     int n = 0;
     bool got_first_part = false;
     int ret = SSH_ERROR;
@@ -224,6 +261,8 @@ RemoteConfigClient::send_config_command(string& cmd)
     select_timeout.tv_sec = 0;
     select_timeout.tv_usec = 200000;
     struct timeval* time_val_ptr = NULL;
+    int is_command_success = 0;
+    int mode = 0;
     while(1)
     {
         if(got_first_part)
@@ -239,24 +278,48 @@ RemoteConfigClient::send_config_command(string& cmd)
         ret = ssh_channel_select(channels, NULL, NULL, time_val_ptr);
         if(ret == SSH_OK)
         {
+            int len = 0;
+            ssh_channel_read(_channel, &len, sizeof(int), 0);
+            ssh_channel_read(_channel, &is_command_success, sizeof(int), 0);
+            ssh_channel_read(_channel, &mode, sizeof(int), 0);
+            len = ntohl(len);
+            is_command_success = ntohl(is_command_success);
+            mode = ntohl(mode);
+            if(!is_command_success && !got_first_part)
+            {
+                printf(">> %s", cmd.c_str());
+            }
             if(!got_first_part)
             {
                 got_first_part = true;
             }
-            memset(buf, 0, sizeof(buf));
-            n = ssh_channel_read(_channel, buf, buf_size, 0);
-            if(n > 0 && n <  buf_size)
+            int msg_len = len - 3 * sizeof(int); 
+            if(msg_len < 0)
             {
-                response_str += string(buf);
-                printf("%s", buf);
+                fprintf(stderr, "Invalid message length!\n");
+                return -1;
             }
-            else if(n == 0)
+            size_t bytes_received = 0;
+            while (bytes_received < msg_len)
             {
-                //do nothing
-            }
-            else if(n > 409600 - 1)
-            {
-                fprintf(stderr, "Too much data received.\n");
+                int bytes_left = msg_len - bytes_received;
+                int bytes_to_read = bytes_left < buf_size - 1  ? bytes_left : buf_size - 1;
+                memset(buf, 0, buf_size);
+            
+                n = ssh_channel_read(_channel, buf, bytes_to_read, 0);
+                bytes_received += n;
+             
+                if(n > 0)
+                {
+                    if(need_outputting(cmd, is_command_success, mode)) 
+                    {
+                        printf("%s", buf);
+                    }
+                }
+                else if(n == 0)
+                {
+                    break;
+                }
             }
         }
         else if(ret == SSH_EINTR)
@@ -274,35 +337,22 @@ RemoteConfigClient::send_config_command(string& cmd)
             return -1;
         }
     }   
-    string line = _username + "\t" + cmd.substr(0, cmd.size() - 1) + "\t";
-    if(cmd.substr(0, sizeof("set") - 1) == "set"
-       || cmd.substr(0, sizeof("delete") - 1) == "delete")
+    if(need_logging(cmd, mode))
     {
-        if(response_str != "Command OK.\n")
+        string line = _username + "\t" + cmd.substr(0, cmd.size() - 1) + "\t";
+        if(is_command_success) 
         {
-            line += "-1";
-            _rclogger->log(line);
-            return -1;
+            line += "0";
         }
         else
         {
-            line += "0";
-            _rclogger->log(line);
+            line += "-1";
         }
+        _rclogger->log(line);
     }
-    if(cmd.substr(0, sizeof("commit") - 1) == "commit")
+    if(!is_command_success)
     {
-        if(response_str != "Commit OK.\n")
-        {
-            line += "-1";
-            _rclogger->log(line);
-            return -1;
-        }
-        else
-        {
-            line += "0";
-            _rclogger->log(line);
-        }
+        return -1;
     }
     return 0;
 }
